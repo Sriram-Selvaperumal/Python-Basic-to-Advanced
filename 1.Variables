@@ -1,128 +1,107 @@
-# Variables:
-## The Variable is a Container for a Value
+Variables:
+The Variable is a Container for a Value
 
-## There are Four different Data Types :
-1.**String**
-2.**Integer**
-3.**Float**
-4.**Boolean**
+There are Four different Data Types :
+String,Integer,Float and Boolean
 
-## A Variable behaves as if it was the value it Contains
+A Variable behaves as if it was the value it Contains
 
-## Each Variable Should have a Unique name
+Each Variable Should have a Unique name
 
-## to assign a variable the symbol "=" can be used
+to assign a variable the symbol "=" can be used
 
-# Now Lets See Strings:
+Now Lets See Strings:
 
-## A String is the Series of Characters which can Include numbers but treated as Characters
+A String is the Series of Characters which can Include numbers but treated as Characters
 
-## the value should be inside either double("") or Single Qoutes ('')
+the value should be inside either double("") or Single Qoutes ('')
 
-## For Example:
+For Example:
 first_name = "Adolf"
 print(first_name)
 
-## Output:
-Adolf
+output:Adolf
 
-## it will print the value that stored in the the variable first_name which is Adolf
+it will print the value that stored in the the variable first_name which is Adolf
 
-## in other cases, if you print the variable name inside the qoutes it will not print the value it contains but it will print the variable name instead
+in other cases, if you print the variable name inside the qoutes it will not print the value it contains but it will print the variable name instead
 
-## Example:
+example:
 last_name = "Hitler"
 print("last_name")
 
-## Output: last_name
+output: last_name
 
-## in this case it will print the name of the variable instead of value it contains
+in this case it will print the name of the variable instead of value it contains
 
-# Now lets see about F-String:
+Now lets see about F-String:
+using F-String you could add your variable with set of strings
+Here the F means "Format" (like Format Specifiers in C)
 
-## using F-String you could add your variable with set of strings
-## Here the F means "Format" (like Format Specifiers in C)
-
-## now lets see an example:
+now lets see an example:
 first_name = "Megatron"
 print(f"Hello {first_name}")
 
-## Output:
-Hello Megatron
+output: Hello Megatron
 
-## the rules are simple here you have to add the letter f in side the paranthesis [()] but outside the Qoutes [""]
-## now give the string you wanted to print inside the qoutes and then add a set of curly braces [{}] aka Place Holders
-## now you should add the variable name inside the curly braces
+the rules are simple here you have to add the letter f in side the paranthesis [()] but outside the Qoutes [""]
+now give the string you wanted to print inside the qoutes and then add a set of curly braces [{}] aka Place Holders
+now you should add the variable name inside the curly braces
 
-# Now Lets See Integers:
+Now Lets See Integers:
 
-## An Integer is a Whole Number. for example Age
-## Your Integers Should not be inside qoutes which is technically a String Data type
+An Integer is a Whole Number. for example Age
+Your Integers Should not be inside qoutes which is technically a String Data type
 
-## for Example:
+for Example:
 age = 19
 print(age)
 
-## Output:
-19
+Output:19
 
-## now lets Try with a F-String:
+now lets Try with a F-String:
 age = 19
 print(f"I am {age} years old")
 
-## Output:
-I am 20 years old
+Output: I am 20 years old
 
-## you can't add decimel values to the integers for example (6.8) which is technically a Float Data type
+you can't add decimel values to the integers for example (6.8) which is technically a Float Data type
 
-## the Examples for Integers in Amount of Students in the Classroom, Quatntity of items, Age of a Person etc...
+the Examples for Integers in Amount of Students in the Classroom, Quatntity of items, Age of a Person etc...
 
-## And those are Integers-They are Whole numbers- And Again Make Sure those are not within Qoutes which technically makes it a String - we can do arithmetic operations with integers but not strings
+And those are Integers-They are Whole numbers- And Again Make Sure those are not within Qoutes which technically makes it a String - we can do arithmetic operations with integers but not strings
 
-# Now Lets Deal with Float:
+Now Lets Deal with Float:
 
-## A Float is a Floating point Number. in simple words, A Number with Decimal Portions are Considered as Float (Ex:3.5)
-## or its a integer integer with a decimel portion and make sure youre not adding qoutes to this data type too
+A Float is a Floating point Number. in simple words, A Number with Decimal Portions are Considered as Float (Ex:3.5)
+or its a integer integer with a decimel portion and make sure youre not adding qoutes to this data type too
 
-## lets see some Sample Codes:
+lets see some Sample Codes:
 price = 10.99
 print(price)
 
-## Output:
-10.99
+output:10.99
 
-## now with a f-string:
+now with a f-string:
 price = 7.99
 print(f"it costs ${price}")
 
-## Output:
-it costs $7.99
+output: it costs $7.99
 
-## this can be used for distance,price,grade point average(GPA) and etc...
+this can be used for distance,price,grade point average(GPA) and etc...
 
-# Now Lets Discuss About Boolean:
+Now Lets Discuss About Boolean:
 
-## The Boolean Data type is either "True or False nothing" more than that and Make sure those are not within the qoutes
-## and the first letter of both sholud be in Uppercase (ex:True/False)
+The Boolean Data type is either "True or False nothing" more than that and Make sure those are not within the qoutes
+and the first letter of both sholud be in Uppercase (ex:True/False)
 
-## for Example:
+for Example:
 student = True
 print(f"Are You a Student : {student}")
 
-## Output:
-Are You a Student : True
+output: Are You a Student : True
 
-## basically we wont use boolean data type for external funtions like printing but which is very helpful in if statements
-## but don't worry thats the topic of future 
+basically we wont use boolean data type for external funtions like printing but which is very helpful in if statements
+but don't worry thats the topic of future 
 
-## and thats all. those are the Variables in Python !!!
-
-
-
-
-
-
-
-
-
-
+and thats all. those are the Variables in Python
