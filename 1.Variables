@@ -17,17 +17,17 @@ A String is the Series of Characters which can Include numbers but treated as Ch
 the value should be inside either double("") or Single Qoutes ('')
 
 For Example:
-first_name = "Adolf"
+first_name = "Tony"
 print(first_name)
 
-output:Adolf
+output:Tony
 
 it will print the value that stored in the the variable first_name which is Adolf
 
 in other cases, if you print the variable name inside the qoutes it will not print the value it contains but it will print the variable name instead
 
 example:
-last_name = "Hitler"
+last_name = "Stark"
 print("last_name")
 
 output: last_name
@@ -39,10 +39,10 @@ using F-String you could add your variable with set of strings
 Here the F means "Format" (like Format Specifiers in C)
 
 now lets see an example:
-first_name = "Megatron"
+first_name = "Steve"
 print(f"Hello {first_name}")
 
-output: Hello Megatron
+output: Hello Steve
 
 the rules are simple here you have to add the letter f in side the paranthesis [()] but outside the Qoutes [""]
 now give the string you wanted to print inside the qoutes and then add a set of curly braces [{}] aka Place Holders
