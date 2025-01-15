@@ -1,0 +1,55 @@
+Typecasting in Python:
+Typecasting is the process of converting one data type into another in Python. Python provides several built-in functions for typecasting,
+which allow you to control the type of your variables dynamically. Below are the commonly used typecasting functions along with examples:
+
+1. int() :
+• Converts a value to an integer.
+• Usable on: Floats, strings (if the string represents an integer), and boolean values.
+
+Example:
+x = "10"
+y = 3.7
+z = True
+
+print(int(x))  # Output: 10
+print(int(y))  # Output: 3
+print(int(z))  # Output: 1
+
+2. float() :
+• Converts a value to a floating-point number.
+• Usable on: Integers, strings (if the string represents a float or integer), and boolean values.
+
+Example:
+x = "10.5"
+y = 2
+z = False
+
+print(float(x))  # Output: 10.5
+print(float(y))  # Output: 2.0
+print(float(z))  # Output: 0.0
+
+3. str() :
+• Converts a value to a string.
+• Usable on: Any data type.
+
+Example:
+x = 10
+y = 3.14
+z = True
+
+print(str(x))  # Output: "10"
+print(str(y))  # Output: "3.14"
+print(str(z))  # Output: "True"
+
+4. bool() :
+• Converts a value to a boolean.
+• Usable on: Any data type. Non-zero numbers, non-empty strings, and non-empty collections evaluate to True; otherwise, False.
+
+Example:
+x = 0
+y = "Hello"
+z = []
+
+print(bool(x))  # Output: False
+print(bool(y))  # Output: True
+print(bool(z))  # Output: False
