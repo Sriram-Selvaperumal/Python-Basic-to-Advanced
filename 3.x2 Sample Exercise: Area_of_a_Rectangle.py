@@ -1,4 +1,4 @@
-# Basic Program to caluculate the Area of A Rectangle
+# Basic Program to caluculate the Area of A Rectangle using basic Input/Output
 
 length = int(input("Enter The Length of the Rectangle: "))
 width = int(input("Enter The Lenth of the Rectangle: "))
