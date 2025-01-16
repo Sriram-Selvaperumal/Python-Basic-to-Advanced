@@ -1,4 +1,4 @@
-# Basic python program to generate a bill
+# Basic python program to generate a bill using basic input/output
 
 name = input("Enter Your Name: ")
 item = input("Enter the Name of the Item: ")
